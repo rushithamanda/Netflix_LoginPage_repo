@@ -1,0 +1,135 @@
+html, body {
+     margin: 0;
+     font-family: 'Helvectica Neue',Arial, Helvetica, sans-serif;
+     color: white;
+     background-color: #000000;
+     font-size: 16px;
+}
+
+     * {
+          box-sizing: border-box;
+     }
+
+
+     header{
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.05)), url('../img/backgroundimg_N.jpg'); 
+        height: 100vh; 
+     }
+
+     nav img{
+          margin-left: 2%;
+          margin-top: 2%;
+          width: 167px;
+          height: 45px;
+          vertical-align:middle ;
+     }
+
+     .signin{
+         color: #ffff;
+         float: right;
+         background-color: #e50914;
+         line-height: normal;
+         margin-top: 18px;
+         margin-right: 3%;
+         padding: 7px 17px;
+         font-weight: 400;
+         border-radius: 3px;
+         font-size: 16px;
+         text-decoration: none;
+
+
+     }
+
+     .block{
+          margin:0.3%;
+          position: absolute;
+          top: 35%;
+          font-size: 1.8vw;
+     }
+
+     .block-1{
+          margin: 0 0 0.2em;
+          margin-left: 1.3em;
+          font-size: 800;
+          font-weight: 600;
+     
+
+     }
+
+     .block-2{
+          margin: 0 0 .5em;
+          margin-left: 2em;
+     }
+
+     .btn{
+         font-size: 14px;
+         letter-spacing: 1.9px;
+         font-weight: 400;
+         margin: .5em .5em .5em 1; 
+         margin-left: 4em;
+         padding: 12px 2em;
+         color: #ffff;
+         background-color: #e50914;
+         cursor: pointer;
+         text-decoration: none;
+         vertical-align: middle;
+         font-family: Arial, sans-serif;
+         border-radius: 2px;
+         user-select: none;
+         text-align: center;
+         border: 0;
+
+     }
+
+     .signin:hover, .btn:hover{
+          background-color: #f40612;
+     }
+
+
+     #feats > nav{
+          padding-top: 35px;
+          background-color: #141414;
+          border-bottom: 2px solid #3d3d3d;
+
+     }
+
+     #feast > nav{
+          text-decoration: none;
+          text-align: center;
+          vertical-align: top;
+          font-weight: bold;
+          color: #7777;
+          height: 125px;
+          line-height: 20px;
+
+     }
+
+     #feast > nav a:hover{
+          color: white;
+     }
+
+     #feast > nav a img{
+          height: 49px;
+
+     }
+
+     #feast > nav a h2{
+          margin: 10px 0 0;
+          font-size: 1em;
+
+     }
+
+     .columns {
+          display: block;
+          flex-basis: 0;
+          flex-grow: 1;
+           flex-shrink: 1;
+     }
+
+     .center {
+          margin: 0 auto;
+     }
+
+     .size-80 {
+          width: 80%;
+     }
